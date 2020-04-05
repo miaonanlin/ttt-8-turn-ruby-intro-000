@@ -1,16 +1,16 @@
 #!/usr/bin/env ruby
 def display_board(board)
-  return board 
-end 
+  return board
+end
 
 def valid_move?(board, index)
-  
+
   if board[index].between? = (0,8)
-    return true 
-  end 
-end 
+    return true
+  end
+end
 
 
 def move(board, index, value="X")
-  
+
   
